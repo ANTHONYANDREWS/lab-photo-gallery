@@ -1,0 +1,51 @@
+.container{
+    margin:auto;
+    width:90%;
+    display:grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-column-gap: 2px;
+    justify-content: center;
+}
+
+.container img{
+    width: 100%;
+    margin: auto;
+}
+
+.photo{
+    grid-row-start:1;
+    grid-row-end:3;
+    
+
+}
+
+.photo3{
+ height:332px;
+}
+.photo3 img{
+    height:390px;
+}
+
+.photo4,.photo5{
+grid-column-start:1;
+grid-column-end:3;
+}
+
+.photo4{
+    height:155px;
+}
+.photo4 img{
+    height:153px;
+}
+.photo3,.photo6{
+grid-column-start:3;
+grid-column-end:5;
+}
+
+.photo5,.photo6{
+    height:300px;
+}
+
+.photo5 img,.photo6 img{
+    height:297px;
+}
